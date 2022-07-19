@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+:root {
+    --deep-green: #377D71;
+    --light-pink: #FBA1A1;
+    --light-green: #E5FAED;
+}
+
+
+*,
+*::backdrop,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* font styling */
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Nav bar */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    max-width: 100%;
+    width: 1400px;
+}
+
+.hero {
+    margin-top: 70px;
+    margin-bottom: 140px;
+    max-width: 100%;
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    background-color: var(--deep-green);
+    border-radius: 10px;
+}
+
+nav a {
+    padding: 20px 40px;
+    color: var(--deep-green);
+}
+
+nav ul {
+    display: flex;
+}
+
+
+/* Hero */
+
+.hero-left {
+    max-width: 660px;
+    width: 100%;
+}
+
+.hero-right {
+    max-width: 580px;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+.hero-left h1 {
+    margin-bottom: 20px;
+}
+
+.hero-left p {
+    margin-bottom: 70px;
+}
+
+.hero a {
+    padding: 20px 40px;
+}
+
+/* services */
+
+.services {
+    background-color: var(--deep-green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 0;
+}
+
+.services .section-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+}
+
+.services-left {
+    width: 100%;
+    max-width: 775px;
+    align-self: flex-start;
+    color: white;
+}
+
+.underline {
+    height: 4px;
+    width: 120px;
+    background-color: var(--light-pink);
+    margin-bottom: 50px;
+}
+
+.services p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.photography, .videography {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid var(--light-pink);
+    padding: 25px 0;
+}
+
+.service-image {
+    margin-right: 15px;
+
+}
+
+.service-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.reservation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reservation h4 {
+    font-size: 40px;
+    color: var(--light-pink);
+    padding: 40px 0;
+}
